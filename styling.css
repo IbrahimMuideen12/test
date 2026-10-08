@@ -115,33 +115,151 @@
     font-weight: thick;
 }
 .button {
-    margin: auto;
     display: flex;
     gap: 10px;
     justify-content: center;
     margin-top: 20px;
 }
-.side h2 {
-     font-size: 35px;
-     font-weight: bold;
-     /* display: block; */
-}
-.side p {
-    font-size: 20px;
-    /* display: block; */
-
-}
-.learn {
-    /* display: block; */
-}
-.card-container {
-    background-color: whitesmoke;
-    width: 100%;
-    height: 600px;
-    display: flex
-
-}
 .side {
     width: 300px;
 }
+.become {
+    font-size: 30px;
+    font-weight: bold;
+}
+.delivery {
+    font-size: 20px;
+    display: block;
+    padding-top: 10px;
+    line-height: 1.3;
+}
+.earn {
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+}
+.card-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    padding-left: 50px;
+    background-color: #ffffff;
+    height: 500px;
+    padding-top: 70px;
+}
+.start {
+    padding-top: 15px;
+}
+.you {
+    font-size: 40px;
+}
+.you:first-letter {
+    font-size: 50px;
+}
+.every {
+    margin-top: 80px;
+    margin-left: 50px;
+}
+.every p {
+    font-size: 20px;
+    font-weight: bolder;
+    padding-top: 20px;
+}
+.every span {
+    font-size: 20px;
+    display: block;
+    padding-top: 10px;
+}
+.find {
+    width: 150px;
+    height: 30px;
+    background-color: red;
+     margin-top: 40px;
+     padding-top: 10px;
+     border-radius: 20px;
+}
+.ants {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    
+}
+.sectDiv {
+    display: flex;
+    background-color:azure;
+}
+.sect {
+    display: flex;
+    width: 100%;
+    height: 550px;
+    background-color: #fef1ee;
+}
+.dash {
+    margin: auto;
+}
+.dash span {
+    font-size: 15px;
+    display: block;
+    padding-top: 10px;
+}
+.sect-img {
+    width: 760px;
+    height: 450px;
+}
+.food {
+    padding-left: 40px;
+    padding-top: 30px;
+}
+.pass {
+    font-size: 50px;
+    font-weight: bold;
+}
+.grocery h1 {
+    font-weight: bold;
+    color: white;
+}
+.grocery p {
+    font-weight: bold;
+    font-size: 24px;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+.grocery span {
+    color: white;
+    line-height: 1.5;
+    /* padding-top: 20px; */
 
+}
+.shop {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding-left: 10px;
+    font-weight: bold;
+}
+.butt {
+    width: 130px;
+    height: 30px;
+    background-color: red;
+    margin-top: 40px;
+    padding-top: 10px;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 30px;
+}
+.background {
+    background-image: url("https://img.cdn4dd.com/cdn-cgi/image/fit=cover,format=auto,quality=60/https://cdn.doordash.com/managed/consumer/seo/home/landing_cta/grocery_desktop.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 550px;
+    background-color: rgb(0, 0, 0,0.6);
+    background-blend-mode: overlay;
+}
+.grocery {
+    text-align: center;
+    padding-top: 140px;
+}
